@@ -1,8 +1,38 @@
 body {
 	margin:0;
+	font-family: helvetica, sans-serif;
 }
 
 #wrapper {
 	margin: 0 auto;
 	width: 900px;
+}
+
+#cont-form {
+	margin:80px auto;
+	padding:20px;
+	width:300px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+
+.subscribe {
+	margin:80px auto;
+	padding:20px;
+	width:300px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+
+.subscribe-pitch {
+  padding-left: 120px;
+}
+
+#cont-form input {
+	display: block;
+	margin: 10px;
+}
+
+#questions {
+	margin-left: 10px;
 }
