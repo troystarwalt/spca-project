@@ -20,6 +20,16 @@ body {
 	border-radius: 5px;
 }
 
+.cont-submit {
+	margin: 10px auto;
+ 	right: 15px;
+ 	height: 25px;
+	width: 70px; 
+	background: #fefefe;
+  	border-radius: 10px;
+ 	cursor: pointer;
+}
+
 .subscribe {
 	margin:15px 0px 15px 0px;
 	padding:20px;
@@ -61,7 +71,7 @@ body {
   position: absolute;*/
   margin: 10px auto;
   right: 15px;
-  height: 35px;
+  height: 25px;
   width: 70px; 
   background: #fefefe;
   border-radius: 10px;
@@ -111,5 +121,9 @@ footer {
 	margin-top: 100px;
 }
 
-
+#contact-info {
+	margin: 40px 0px 0px 10px;
+	text-align: right;
+	border-left: 1px solid grey;
+}
 
