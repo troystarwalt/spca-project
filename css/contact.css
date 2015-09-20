@@ -13,7 +13,7 @@ body {
 }
 
 #cont-form {
-	margin:30px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
 	padding:20px;
 	width:300px;
 	border: 1px solid grey;
@@ -109,6 +109,22 @@ body {
 	margin-left: 10px;
 }
 
+#contact-info {
+	margin: 0px 0px 0px 10px;
+	padding:20px;
+	text-align: right;
+	float:right;
+	width: 400px;
+/*	border: 1px solid grey;
+	border-radius: 10px;
+	min-height: 270px;*/
+}
+
+.contact-list a {
+	text-decoration: none;
+	color:black;
+}
+
 #clear {
 	clear:both;
 }
@@ -121,9 +137,5 @@ footer {
 	margin-top: 100px;
 }
 
-#contact-info {
-	margin: 40px 0px 0px 10px;
-	text-align: right;
-	border-left: 1px solid grey;
-}
+
 
