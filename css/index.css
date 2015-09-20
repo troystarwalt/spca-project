@@ -78,3 +78,36 @@ a:hover {
     background: #eee;
     width: 200px;
 }
+
+ #clear {
+    clear: both;
+}
+
+footer {
+      background-color: rgba(216, 213, 219, .65);
+}
+.social-footer {
+    /*background-color: rgba(216, 213, 219, .65);*/
+    padding:10px;
+    margin-top:-10px;
+}
+
+.social-footer li {
+    list-style-type: none;
+    display:inline;
+    margin: 0% auto;
+}
+
+.aspcalogo {
+    float:right;
+    margin-top: -44px;
+}
+
+#copyright {
+    background-color: #878787;
+    border: 1px solid grey;
+    text-align: center;
+    font-size: 10px;
+    color:white;
+    padding: 5px 0px;
+}
