@@ -100,6 +100,19 @@ a:hover {
     padding-left: 120px;
 }*/
 
+table {
+    margin:5px;
+}
+
+.newstable {
+    height: 75px;
+    width:600px;
+}
+
+#table-news h5 {
+    color:#FF6200;
+}
+
 .subscribe-form {
     position: relative;
     margin: 20px -20px -20px;
