@@ -1,25 +1,22 @@
 body {
     background: #ddd;
-    font-family: "Helvetica", "sans-serif";
-    margin:0;
+    margin: 0;
+    font-family: helvetica, sans-serif;
 }
-
 #wrapper {
     margin: 0 auto;
     width: 1020px;
     background-color: white;
 }
-
 a {
     color: #666;
     text-decoration: none;
 }
-
 a:hover {
     color: #C00;
 }
-
-#dropdownMenu, #dropdownMenu ul {
+#dropdownMenu,
+#dropdownMenu ul {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -27,7 +24,6 @@ a:hover {
     text-align: center;
     border: 0;
 }
-
 #dropdownMenu a {
     display: block;
     width: 200px;
@@ -35,19 +31,16 @@ a:hover {
     line-height: 30px;
     border: 0;
 }
-
 #dropdownMenu a:hover {
     background-color: #fff;
     border: 0;
 }
-
 #dropdownMenu li {
     float: left;
     width: 204px;
     background-color: #eee;
     border: 0;
 }
-
 #dropdownMenu li ul {
     width: 200px;
     background: #eee;
@@ -55,13 +48,12 @@ a:hover {
     border-style: solid;
     border-color: #999999;
 }
-#dropdownMenu li > ul{
-    display:none;
+#dropdownMenu li > ul {
+    display: none;
 }
-#dropdownMenu > li:hover > ul{
-    display:block;
+#dropdownMenu > li:hover > ul {
+    display: block;
 }
-
 #dropdownMenu li ul li {
     width: 200px;
     border: 0;
@@ -70,11 +62,73 @@ a:hover {
     border-style: solid;
     border-color: #999999;
 }
-
 #dropdownMenu li ul ul {
     position: absolute;
     margin-top: -30px;
     margin-left: 200px;
     background: #eee;
     width: 200px;
+}
+
+#col1 {
+    margin:10px;
+}
+
+h2 {
+    color: orange;
+    
+}
+
+.logo {
+
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+
+}
+
+#henry {
+
+    height: 600px;
+
+}
+
+h3 {
+    color: #ff6200;
+}
+.contact-list a {
+    text-decoration: none;
+    color: black;
+}
+#clear {
+    clear: both;
+}
+
+footer {
+      background-color: rgba(216, 213, 219, .65);
+}
+.social-footer {
+    /*background-color: rgba(216, 213, 219, .65);*/
+    padding:10px;
+    margin-top:-10px;
+}
+
+.social-footer li {
+    list-style-type: none;
+    display:inline;
+    margin: 0% auto;
+}
+
+.aspcalogo {
+    float:right;
+    margin-top: -44px;
+}
+
+#copyright {
+    background-color: #878787;
+    border: 1px solid grey;
+    text-align: center;
+    font-size: 10px;
+    color:white;
+    padding: 5px 0px;
 }
